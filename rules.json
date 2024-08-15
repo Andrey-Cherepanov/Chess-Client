@@ -1,0 +1,10 @@
+{
+  "pieces": {
+    "pawn": {"moves": ["1u", "2u?1r"], "name": "Pawn", "short": ""},
+    "king": {"moves": ["1u", "1u1r", "1r", "1d1r", "1d", "1d1l", "1l", "1u1l"], "name": "King", "short": "K"},
+    "queen": {"moves": ["u", "ur", "r", "dr", "d", "dl", "l", "ul"], "name": "Queen", "short": "Q"},
+    "rock": {"moves": ["u", "r", "d", "l"], "name": "Rock", "short": "R"},
+    "bishop": {"moves": ["ur", "dr", "dl", "ul"], "name": "Bishop", "B"},
+    "knight": {"moves": ["2u1r", "1u2r", "1d2r", "2d1r", "2d1l", "1d2l", "1u2l", "2u1l"], "name": "Knight", "short": "N", "jump": "yes"}
+  }
+}
